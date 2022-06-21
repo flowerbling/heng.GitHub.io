@@ -1,4 +1,6 @@
 ## Heng的个人博客
 
 ### Golang 知识点
-[Golang中Array和Slice的区别](https://www.jianshu.com/p/10d23e9ffc36)
+- [make和new什么区别](https://www.cnblogs.com/koeln/p/15192376.html)
+- [Golang中Array和Slice的区别](https://www.jianshu.com/p/10d23e9ffc36)
+- [json包变量不加tag会怎么样？](https://mp.weixin.qq.com/s/bZlKV_BWSqc-qCa4DrsCbg)
