@@ -1,5 +1,10 @@
 ## Heng的个人博客
 ### Golang 环境搭建
+brew 安装
+~~~shell
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+~~~
+
 protoc-gen-go 和 proto-gen-go-grpc 安装
 ~~~shell
 # brew 安装
