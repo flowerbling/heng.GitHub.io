@@ -17,3 +17,9 @@
     nrm use taobao # 更换淘宝源
     nrm use npm # 切换为原始源
 ~~~
+
+# npm error 记录
+- Cannot read properties of null (reading 'pickAlgorithm')
+~~~ shell
+    npm cache clear --force
+~~~
