@@ -6,3 +6,25 @@
 -t 同时也下载需要为运行测试所需要的包
 -u 强制使用网络去更新包和它的依赖包
 -v 显示执行的命令
+
+~~~
+
+# go command line arguments 的使用 GO中命令行参数的传递
+
+os.Args的第一个元素，os.Args[0], 是命令本身的名字；其它的元素则是程序启动时传给它的参数。
+~~~ golang
+package main
+
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	fmt.Println(os.Args)
+}
+
+# [/var/folders/s1/1pfsrqds1p9fcg82xzzn8zq00000gn/T/go-build3034726544/b001/exe/main hello]
+~~~
