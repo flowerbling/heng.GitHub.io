@@ -15,8 +15,6 @@ os.Args的第一个元素，os.Args[0], 是命令本身的名字；其它的元�
 ~~~ golang
 package main
 
-package main
-
 import (
 	"fmt"
 	"os"
